@@ -49,7 +49,7 @@ h3 {
   margin-bottom: 0;
 }
 
-/* Маркировані списки та лінки */
+/* Марковані списки та лінки */
 .list {
   list-style-type: none;
   padding: 0;
@@ -143,7 +143,8 @@ h3 {
   transform: scaleX(0);
 }
 
-.site-nav-link:hover::after {
+.site-nav-link:hover::after,
+.site-nav-link:focus::after {
   transform: scaleX(1);
 }
 
